@@ -1,6 +1,12 @@
 const express = require('express')
+
+// PASSA UMA INFORMAÇÃO DO EXPRESS PARA CONSTANTE EXPRESS
 const app = express()
+
+// É A PORTA QUE O SITE ESTÁ HOSPEDADO
 const port = 3000
+
+
 app.use(express.json());
 
 let bd = [
